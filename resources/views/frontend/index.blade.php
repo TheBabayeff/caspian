@@ -53,30 +53,105 @@
         <!-- end container -->
     </header>
     <!-- end slider -->
-{{--    <div class="section-note">This section contains your estimated account balance from the legacy <u>Constro platform</u>, cumulated with your sales</div>--}}
-    <!-- end section-note -->
+
+    <section class="content-section " style="font-family: 'Nunito', sans-serif">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h6>Bakı şəhəri, Məmmədli kəndi</h6>
+                        <h2>İstehsal sahəmiz,<br>
+                            Xidmətlərimiz</h2>
+                    </div>
+                    <!-- end section-title -->
+                </div>
+                <!-- end col-12 -->
+                <div class="col-lg-6">
+                    <figure class="side-image"><img src="assets/images/plass.png" alt="Image"></figure>
+                    <!-- end side-image -->
+                </div>
+                <!-- end col-6 -->
+                <div class="col-lg-6">
+                    <div class="side-content">
+                        <h5>Caspian Express - Öz İstehsalatımız</h5>
+                        <p>
+                            Caspian Express, hər zaman yenilikçi yanaşmaları və yüksək texnoloji həlləri ilə tanınıb. Müəssisəmizdə istehsal olunan məhsulların hər biri, müxtəlif sahələrdəki ehtiyacları qarşılayan keyfiyyət və effektivliklə seçilir.
+                            Biz, müasir avadanlıqlar və dərin texniki biliklərə əsaslanaraq, müştərilərimizə ən yaxşı məhsulları və xidmətləri təqdim etmək üçün çalışırıq. Təcrübəli komandamız, məhsullarımızın hər mərhələsində yüksək standartlara riayət edir, bu da bizim istehsalımızın etibarlılığını və dayanıqlığını təmin edir.
+
+                            Müəssisəmiz, müxtəlif növ plastik məhsulların istehsalında ixtisaslaşmışdır, və biz həm yerli, həm də beynəlxalq bazarlara xidmət göstəririk. Bizim əsas məqsədimiz, müştərilərimizin tələblərinə uyğun olaraq mükəmməl məhsullar təqdim etməkdir.
+
+                            Məmmədli kəndindəki müəssisəmiz, sənaye sektorunda etibarlı bir tərəfdaş kimi tanınır və biz bu etibarı qorumağa və daha da artırmağa sadiqik. Təşəkkür edirəm ki, bizə inanırsınız və bizimlə birlikdə işləyirsiniz.
+                        </p>
+                        <figure><img src="assets/images/signature.png" alt="Image"></figure>
+                        <h6>İsmayıl Orucov</h6>
+                        <small>Owner , Ceo - Caspian Express</small> </div>
+                    <!-- end side-content -->
+                </div>
+                <!-- end col-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+
     <section class="content-section">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" style="font-family: 'Nunito', sans-serif">
+                <h6>Son Prosessə qədər yanınızdayıq !</h6>
                 <h2>Bir Toxunuşla istehsala başla</h2>
             </div>
             <div class="row align-items-center">
-
-                <div class="col-lg-5">
+                <div class="col-lg-8" style="font-family: 'Nunito', sans-serif">
+                    <div class="accordion" id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne"> <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Planlaşdırma və Layihələndirmə:<i class="lni lni-arrow-right"></i></a> </div>
+                            <div id="collapseOne" class="collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">İstehsalın ilk və ən vacib addımı, detallı bir planlaşdırma və layihələndirmə prosesidir. Bu mərhələdə, məqsədlərinizi, ehtiyaclarınızı və gözləntilərinizi dəqiqləşdirir, mümkün çətinlikləri və həll yollarını müəyyən edirik.</div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end collapse -->
+                        </div>
+                        <!-- end card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Xammalın Seçimi və Təchizatı<i class="lni lni-arrow-right"></i></a> </div>
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body"> Keyfiyyətli bir məhsulun əsası, yüksək standartlarda xammaldan keçir. Biz sizə xammal seçimində və təchizatında lazımi dəstəyi təmin edirik, bu da istehsal prosesinin etibarlılığını və davamlılığını təmin edir.</div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end collapse -->
+                        </div>
+                        <!-- end card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Avadanlıq və Texnologiya <i class="lni lni-arrow-right"></i></a> </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body"> Müasir avadanlıq və texnologiyaların seçimi, istehsalın effektivliyini və keyfiyyətini artırır. Biz sizin üçün ən uyğun avadanlıq və texnologiyaları təklif edirik və onların quraşdırılmasında sizə kömək edirik.</div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end collapse -->
+                        </div>
+                        <!-- end card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFour"> <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> İstehsalın Başlanması və İdarəetməsi <i class="lni lni-arrow-right"></i></a> </div>
+                            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">  Planlaşdırma və hazırlıq mərhələləri tamamlandıqdan sonra, istehsalın başlanması və səmərəli idarə edilməsi prosesi başlayır. Biz, istehsal prosesinizin hər addımında sizə dəstək olmağa hazırıq.</div>
+                                <!-- end card-body -->
+                            </div>
+                            <!-- end collapse -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end accordion -->
+                </div>
+                <div class="col-lg-4">
 
                     <figure class="side-image"><img src="{{ asset( 'assets/images/server2.png') }}" alt="Image"></figure>
 
                     <!-- end side-image -->
                 </div>
-                <div class="col-lg-5 offset-lg-2">
-                    <ul class="custom-list">
-                        <li><i class="lni lni-checkmark"></i> Dedication to client satisfaction</li>
-                        <li><i class="lni lni-checkmark"></i> Teamwork and collabration</li>
-                        <li><i class="lni lni-checkmark"></i> Culture of mutual trust and respect</li>
-                        <li><i class="lni lni-checkmark"></i> Being leader in our profession</li>
-                        <li><i class="lni lni-checkmark"></i> Pride in our works and excellences</li>
-                    </ul>
-                </div>
+
+
+
+                <!-- end col-8 -->
             </div>
         </div>
         <!-- end container -->
@@ -125,8 +200,6 @@
         </div>
         <!-- end project-slider -->
     </section>
-
-
 
     <!-- end content-section -->
     <section class="content-section ">
@@ -177,58 +250,6 @@
                         <video src="assets/videos/video.mp4" autoplay muted loop playsinline></video>
                     </div>
                     <!-- end video-box -->
-                </div>
-                <!-- end col-12 -->
-                <div class="col-12">
-                    <div class="testimonials-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial">
-                                    <p>Consto Construction is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Consto again in the near future!</p>
-                                    <i class="lni lni-quotation"></i>
-                                    <h6>William James</h6>
-                                    <small>Life Touch LLC</small> </div>
-                                <!-- end testimonial -->
-                            </div>
-                            <!-- end swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="testimonial">
-                                    <p>Consto was completely respectful of the building and its surroundings - they immediately became part of our team and they know teamwork! They kept the jobsite clean and safe; working with Consto is nothing short of a first class experience!</p>
-                                    <i class="lni lni-quotation"></i>
-                                    <h6>William James</h6>
-                                    <small>Life Touch LLC</small> </div>
-                                <!-- end testimonial -->
-                            </div>
-                            <!-- end swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="testimonial">
-                                    <p>Thank you for all of your hard work on our project…I seriously don’t know how you did it but it came together SO WELL. I know we are a particular bunch and want things a certain way but you guys did such an amazing job!</p>
-                                    <i class="lni lni-quotation"></i>
-                                    <h6>William James</h6>
-                                    <small>Life Touch LLC</small> </div>
-                                <!-- end testimonial -->
-                            </div>
-                            <!-- end swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="testimonial">
-                                    <p>I was truly impressed with Consto’s quality workmanship and the final product. Caspian provided an outstanding team that completed our project on-time and on schedule with no disruption to the staff.</p>
-                                    <i class="lni lni-quotation"></i>
-                                    <h6>William James</h6>
-                                    <small>Life Touch LLC</small> </div>
-                                <!-- end testimonial -->
-                            </div>
-                            <!-- end swiper-slide -->
-                        </div>
-                        <!-- end swiper-wrapper -->
-                        <div class="controls">
-                            <div class="button-prev"><i class="lni lni-arrow-left"></i></div>
-                            <!-- end button-prev -->
-                            <div class="button-next"><i class="lni lni-arrow-right"></i></div>
-                            <!-- end button-next -->
-                        </div>
-                        <!-- end controls -->
-                    </div>
-                    <!-- end testimonials-slider -->
                 </div>
                 <!-- end col-12 -->
             </div>
