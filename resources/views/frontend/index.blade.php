@@ -294,8 +294,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title">
-                        <h6>Arlex Makina</h6>
+                    <div class="section-title" style="font-family: 'Nunito', sans-serif">
+                        <h6>Plastik Məhsullar</h6>
                         <h2>Bir Makinanın Min Marifəti</h2>
                     </div>
                     <!-- end section-title -->
@@ -307,60 +307,14 @@
         <!-- end container -->
         <div class="our-history">
             <div class="swiper-wrapper">
+
+                @foreach($products AS $product)
                 <div class="swiper-slide">
-                    <b>Arlex 250 Tonluq</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex1.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
+                    <b>{{$product->title}}</b>
+                    <figure><img src="{{ asset("storage/" . $product->image) }}" alt="Image"></figure>
+                    <p>{{ \Illuminate\Support\Str::limit($manufacture->description , 100) }}</p>
                 </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>June 2011</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex2.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>September 2012</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex7.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>February 2013</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex8.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>November 2017</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex5.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>November 2018</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex6.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>March 2020</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex3.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>March 2020</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex4.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <b>March 2020</b>
-                    <figure><img src="{{ asset( 'assets/images/arlex/arlex3.png') }}" alt="Image"></figure>
-                    <p>We know our customers are real people with specific goals and unique preferences.</p>
-                </div>
-                <!-- end swiper-slide -->
+                @endforeach
             </div>
             <!-- end swiper-wrapper -->
             <div class="swiper-pagination"></div>
