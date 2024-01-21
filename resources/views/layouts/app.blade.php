@@ -2,6 +2,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18D2L1VLWE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-18D2L1VLWE');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#feed01"/>
@@ -15,11 +24,11 @@
 
 
     <!-- FAVICON FILES -->
-    <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-    <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-    <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-    <link href="ico/favicon.png" rel="shortcut icon">
+    <link href="{{ asset('assets/ico/favicon.png') }}" rel="apple-touch-icon" sizes="144x144">
+    <link href="{{ asset('assets/ico/favicon.png') }}" rel="apple-touch-icon" sizes="114x114">
+    <link href="{{ asset('assets/ico/favicon.png') }}" rel="apple-touch-icon" sizes="72x72">
+    <link href="{{ asset('assets/ico/favicon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/ico/favicon.png') }}" rel="shortcut icon">
 
     <!-- CSS FILES -->
     <link rel="stylesheet" href="{{ asset('assets/css/lineicons.css') }}">
@@ -109,9 +118,9 @@
                 <li><a href="{{ route('welcome') }}">Əsas səhifə</a>
                 </li>
                 <li><a href="{{ route('sectors') }}">Xidmətlər</a></li>
-                <li><a href="projects.html">Məhsullar</a></li>
-                <li><a href="news.html">Xəbərlər</a></li>
-                <li><a href="contact.html">Əlaqə</a></li>
+                <li><a href="{{ route('manufactures') }}">Məhsullar</a></li>
+                <li><a href="{{ route('welcome') }}">Xəbərlər</a></li>
+                <li><a href="{{ route('welcome') }}">Əlaqə</a></li>
             </ul>
         </div>
         <!-- end site-menu -->
@@ -196,26 +205,27 @@
         <!-- end row -->
     </div>
     <!-- end container -->
-    <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i> <small>Scroll Up</small> </a>
+    <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i> <small>Yuxarı</small> </a>
     <!-- end scroll-top -->
 </footer>
 <!-- end footer -->
-<div id="sales-specialist-form">
-    <form>
-        <div class="form-group"> <span>Full Name</span>
-            <input type="text">
+<div id="sales-specialist-form" style="font-family: 'Nunito', sans-serif">
+    <form action="{{ route('request.call') }}" method="POST">
+        @csrf
+        <div class="form-group"> <span>Adınız və Soyadınız</span>
+            <input type="text" name="name">
         </div>
         <!-- end form-group -->
-        <div class="form-group"> <span>Phone Number</span>
-            <input type="text">
+        <div class="form-group"> <span>Telefon Nömrəniz</span>
+            <input type="text" name="phone">
         </div>
         <!-- end form-group -->
-        <div class="form-group"> <span>Current E-mail</span>
-            <input type="email">
+        <div class="form-group"> <span>Qeyd:</span>
+            <input type="text" name="description">
         </div>
         <!-- end form-group -->
         <div class="form-group">
-            <input type="submit" value="REQUEST A CALL">
+            <input type="submit" value="Müraciət Göndər">
         </div>
         <!-- end form-group -->
     </form>

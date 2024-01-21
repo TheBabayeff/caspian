@@ -54,6 +54,71 @@
     </header>
     <!-- end slider -->
 
+
+
+    <section class="content-section white-space-bottom" data-background="#f7f6f1" style="font-family: 'Nunito', sans-serif">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="section-title text-left">
+                        <h6>Göstərdiyimiz Xİdmətlər</h6>
+                        <h2>Xidmətlərimiz</h2>
+                    </div>
+                    <!-- end section-title -->
+                </div>
+                <!-- end col-7 -->
+                <div class="col-lg-5">
+                    <p>Müxtəlif istehsal sahələri üzrə onillik təcrübəmiz, keyfiyyətə olan tutqumuz, müştəri məmnuniyyətinə verdiyimiz dəyər və sənaye texnologiyalarına olan sadiqliyimizlə öyrənmişik</p>
+                </div>
+                <!-- end col-5 -->
+                <div class="col-lg-4">
+                    <div class="step-box">
+                        <figure class="image"><img src="assets/images/istehsalxana.png" alt="Image"></figure>
+                        <div class="content">
+                            <span>01.</span>
+                            <figure class="icon"><img src="assets/images/icon01.png" alt="Image"></figure>
+                            <h6>Tam Həllər: Avadanlıqdan Xammala</h6>
+                            <p>Caspian Express, sizə avadanlıq tədarükündən quraşdırmaya, mütəxəssis təminatından xammal təchizatına qədər tam həllər sunur. İstehsalınızı bizimlə keyfiyyətə çevirin</p>
+                        </div>
+                        <!-- end content -->
+                    </div>
+                    <!-- end step-box -->
+                </div>
+                <!-- end col-4 -->
+                <div class="col-lg-4">
+                    <div class="step-box">
+                        <figure class="image"><img src="assets/images/cncxana.png" alt="Image"></figure>
+                        <div class="content">
+                            <span>02.</span>
+                            <figure class="icon"><img src="assets/images/icon02.png" alt="Image"></figure>
+                            <h6>Formanıza Uyğun Qəliblər: CNC Sənətkarlığı</h6>
+                            <p>Necessary ye contented newspaper zealously breakfast he prevailed. </p>
+                        </div>
+                        <!-- end content -->
+                    </div>
+                    <!-- end step-box -->
+                </div>
+                <!-- end col-4 -->
+                <div class="col-lg-4">
+                    <div class="step-box">
+                        <figure class="image"><img src="assets/images/step03.jpg" alt="Image"></figure>
+                        <div class="content">
+                            <span>03.</span>
+                            <figure class="icon"><img src="assets/images/icon03.png" alt="Image"></figure>
+                            <h6>PARTNERSHIP</h6>
+                            <p>Necessary ye contented newspaper zealously breakfast he prevailed. </p>
+                        </div>
+                        <!-- end content -->
+                    </div>
+                    <!-- end step-box -->
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end content-section -->
     <section class="content-section " style="font-family: 'Nunito', sans-serif">
         <div class="container">
             <div class="row align-items-center">

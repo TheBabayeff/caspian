@@ -48,12 +48,11 @@
 
                         <div class="widget">
                             <h6 class="widget-title">GALLERY</h6>
+                            @foreach($manufactures AS $factory)
                             <figure>
-                                <img src="assets/images/slide01.jpg" alt="Image">
+                                <a href="{{ route('manufacture.show' , $factory->slug) }}"><img src="{{ asset("storage/" . $factory->images[0]) }}" alt="Image"></a>
                             </figure>
-                            <figure>
-                                <img src="assets/images/slide02.jpg" alt="Image">
-                            </figure>
+                            @endforeach
                         </div>
                         <!-- end widget -->
                     </aside>
