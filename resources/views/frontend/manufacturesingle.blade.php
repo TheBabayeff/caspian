@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <header class="page-header">
+    <header class="page-header" style="height: 240px;">
         <div class="container">
             <h1>{{ $manufacture->title }}</h1>
             <h6 style="font-family: 'Nunito', sans-serif">

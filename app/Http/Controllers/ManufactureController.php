@@ -9,7 +9,7 @@ class ManufactureController extends Controller
 {
     public function index()
     {
-        $manufactures = Manufacture::all();
+        $manufactures = Manufacture::where('is_visible', true)->get();
 
         return view('frontend.manufactures', compact('manufactures'));
     }

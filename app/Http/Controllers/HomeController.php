@@ -18,14 +18,22 @@ class HomeController extends Controller
     public function index()
     {
         $slides = Slide::where('is_visible', true)->get();
-        $sectors = Sector::inRandomOrder()->take(6)->get();;
-        $manufactures  = Manufacture::where('is_visible', true)->inRandomOrder()->get();
+        $sectors = Sector::take(6)->get();;
+        $manufactures  = Manufacture::where('is_visible', true)->take(5)->get();
         $news  = News::where('is_visible', true)->inRandomOrder()->get();
         $products  = Product::inRandomOrder()->get();
         return view('frontend.index',compact('slides','sectors','manufactures','news', 'products'));
     }
 
+    public function thankyou()
+    {
+        return view('frontend.thankyou');
+    }
 
+    public function about()
+    {
+        return view('frontend.components.about');
+    }
     public function requestCall(Request $request)
     {
         $validated = $request->validate([
@@ -40,7 +48,7 @@ class HomeController extends Controller
         $save = RequestCall::create($validated);
         if($save)
         {
-            return redirect()->back()->with('success', 'Müraciətiniz müvəffəqiyyətlə göndərildi');
+            return view('frontend.thankyou')->with('success', 'Müraciətiniz müvəffəqiyyətlə göndərildi');
         }
 
     }

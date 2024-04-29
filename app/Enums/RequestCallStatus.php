@@ -5,9 +5,11 @@ namespace App\Enums;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+use Mokhosh\FilamentKanban\Concerns\IsKanbanStatus;
 
 enum RequestCallStatus: string implements HasColor, HasIcon, HasLabel
 {
+    use IsKanbanStatus;
     case New = 'new';
 
     case Called = 'called';
